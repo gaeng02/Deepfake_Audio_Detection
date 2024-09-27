@@ -11,10 +11,10 @@
 
 |   SUN   |   MON   |   TUE   |   WED   |   THU   |   FRI   |   SAT   |
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|  | 06.24 <br> [Meeting](./posts/0624_Meeting.md)| 06.25 | 06.26 | 06.27 | 06.28 <br> [Meeting](./posts/0628_Meeting.md) | 06.29 |
+|  | 06.24 <br> [Meeting](./posts/0624_Meeting.md)| 06.25 <br> | 06.26 | 06.27 | 06.28 <br> [Meeting](./posts/0628_Meeting.md) | 06.29 |
 | 06.30 | 07.01 | 07.02 | 07.03 | 07.04 | 07.05 | 07.06 |
 | 07.07 | 07.08 <br> [Meeting](./posts/0708_Meeting.md) | 07.09 | 07.10 | 07.11 | 07.12 | 07.13 |
-| 07.14 | 07.15 <br> [Meeting](./posts/0715_Meeting.md) | 07.16 | 07.17 | 07.18 <br> [Meeting](./posts/0718_Meeting.md) | 07.19 | |
+| 07.14 | 07.15 <br> [Meeting](./posts/0715_Meeting.md) | 07.16 | 07.17 | 07.18 <br> | 07.19 <br> (Deadline)| |
 
 
 ## Using Technology
