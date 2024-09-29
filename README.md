@@ -24,8 +24,19 @@
 | Library | Version | License | 
 |---|:---:|:---|
 | [`Pandas`](https://github.com/pandas-dev/pandas) |  | `BSD 3-Clause` |
-| [`Scikit-learn`](https://scikit-learn.org/stable/) | | `BSD License` |
-| [`Numpy`](https://github.com/numpy/numpy) |  | `BSD License` |
-| [`Matplotlib`](https://github.com/matplotlib/matplotlib) |  | ` Python Software Foundation License` |
-| [`Soundfile`](https://github.com/bastibe/python-soundfile) |  | `BSD License` |
-| [`Librosa`](https://github.com/librosa/librosa) |  | `ISC License` |
+| [`Scikit-learn`](https://scikit-learn.org/stable/) | | `BSD` |
+| [`Numpy`](https://github.com/numpy/numpy) |  | `BSD` |
+| [`Matplotlib`](https://github.com/matplotlib/matplotlib) |  | ` Python Software Foundation` |
+| [`Soundfile`](https://github.com/bastibe/python-soundfile) |  | `BSD` |
+| [`Librosa`](https://github.com/librosa/librosa) |  | `ISC` |
+| [`Soundfile`](https://github.com/bastibe/python-soundfile) | | `BSD 3-Clause`|
+| [`Tensorflow`](https://github.com/tensorflow) | | `Apache 2.0` |
+| [`Pyannote`](https://github.com/pyannote) | | `MIT` |
+| [`Pydub`](https://pydub.com/) | | `MIT` |
+| [`Joblib`](https://joblib.readthedocs.io/en/stable/) | | `BSD` |
+| [`Noisereduce`](https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme) | | `MIT` |
+| [`Torch`](https://pytorch.org/) | | `BSD` |
+| [`Torchvision`](https://github.com/pytorch/vision) | | `BSD` |
+| [`Torchaudio`](https://github.com/pytorch/audio) | | `BSD` |
+| [`Torchinfo`](https://github.com/tyleryep/torchinfo) | | `MIT` |
+
