@@ -3,7 +3,11 @@
 ## Purpose
 
 
-## Data
+## Directory
+|- data <br>
+&emsp;|- train.csv <br>
+&emsp;|- data <br>
+&emsp;&emsp;|- (audio_files)
 
 
 ## Progress
