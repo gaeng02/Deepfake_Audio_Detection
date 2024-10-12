@@ -1,25 +1,78 @@
 This project makes use of the following libraries.
 
-| Library | Version | License | 
-|---|:---:|:---|
-| [`Noisereduce`](https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme) |  | `MIT` |
-| [`Torchinfo`](https://github.com/tyleryep/torchinfo) | 1.8.0 | `MIT` |
-| [`Pyannote`](https://github.com/pyannote) |  | `MIT` |
-| [`Pydub`](https://pydub.com/) |  | `MIT` |
-| [`Soundfile`](https://github.com/bastibe/python-soundfile) | 0.12.1 | `BSD` |
-| [`Pandas`](https://github.com/pandas-dev/pandas) | 2.2.2 | `BSD` |
-| [`Numpy`](https://github.com/numpy/numpy) | 1.26.4 | `BSD` |
-| [`Joblib`](https://joblib.readthedocs.io/en/stable/) |  | `BSD` |
-| [`Scikit-learn`](https://scikit-learn.org/stable/) | 1.5.1 | `BSD` |
-| [`Torch`](https://pytorch.org/) | 2.3.1 cpu | `BSD` |
-| [`Torchvision`](https://github.com/pytorch/vision) |  | `BSD` |
-| [`Torchaudio`](https://github.com/pytorch/audio) | 2.3.1 cpu | `BSD` |
-| [`Matplotlib`](https://github.com/matplotlib/matplotlib) | 3.9.1 | `Matplotlib Development Team(MDT)` |
-| [`Librosa`](https://github.com/librosa/librosa) | 0.10.2.post1 | `ISC` |
-| [`Tensorflow`](https://github.com/tensorflow) | 2.17.0 | `Apache 2.0` |
+1. Noisereduce 
+- MIT License
+- https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme
+
+2. Torchinfo 
+- MIT License
+- https://github.com/tyleryep/torchinfo
+- 1.8.0
+
+3. Pyannote
+- MIT License
+- https://github.com/pyannote
+
+4. Pydub
+- MIT License 
+- https://pydub.com/
+
+5. Soundfile
+- BSD License
+- https://github.com/bastibe/python-soundfile
+- 0.12.1
+
+6. Pandas
+- BSD License 
+- https://github.com/pandas-dev/pandas
+- 2.2.2
+
+7. Numpy
+- BSD License 
+- https://github.com/numpy/numpy
+- 1.26.4
+
+8. Joblib
+- BSD License 
+- https://joblib.readthedocs.io/en/stable/
+
+9. Scikit-learn
+- BSD License 
+- https://scikit-learn.org/stable/
+- 1.5.1
+
+10. Torch
+- BSD License 
+- https://pytorch.org/
+- 2.3.1 cpu
+
+11. Torchvision
+- BSD License 
+- https://github.com/pytorch/vision
+
+12. Torchaudio
+- BSD License 
+- https://github.com/pytorch/audio
+- 2.3.1 cpu
+
+13. Matplotlib
+- Matplotlib Development Team(MDT)
+- https://github.com/matplotlib/matplotlib
+- 3.9.1
+
+14. Librosa
+- ISC License
+- https://github.com/librosa/librosa
+- 0.10.2.post1
+
+15. Tensorflow
+- Apache Version 2.0
+- https://github.com/tensorflow
+- 2.17.0
 
 
-===== Matplotlib ===== 
+===== 13. Matplotlib ===== 
+
 1. This LICENSE AGREEMENT is between the Matplotlib Development Team
 ("MDT"), and the Individual or Organization ("Licensee") accessing and
 otherwise using matplotlib software in source or binary form and its
@@ -68,7 +121,8 @@ Licensee agrees to be bound by the terms and conditions of this License
 Agreement.
 
 
-=== Librosa === 
+=== 14. Librosa === 
+
 Copyright (c) 2013--2023, librosa development team.
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
@@ -76,7 +130,8 @@ Permission to use, copy, modify, and/or distribute this software for any purpose
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
-=== Tensorflow ===
+=== 15. Tensorflow ===
+
                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
