@@ -1,13 +1,19 @@
+'''
+This script processes the "../data/sample/train.csv" file, which contains the names of audio files and their labels ("true" or "false").
+It separates the data based on these labels.
+To preserve the original data, the audio data is stored in a separate directory.
+'''
+
 import pandas as pd
 import shutil
 import os
 
 # os.getcwd()
 
-df = pd.read_csv("./train.csv")
+df = pd.read_csv("../data/sample/train.csv")
 
-true_directory = "./true"
-false_directory = "./false"
+true_directory = "../data/processed/separated/true"
+false_directory = "./data/processed/separated/false"
 
 os.makedirs(true_directory, exist_ok = True)
 os.makedirs(false_directory, exist_ok = True)
@@ -20,4 +26,5 @@ for index, row in df.iterrows() :
     elif label == "false" : destination = os.path.join(false_dir, os.path.basename(path))
     else : print("error")
     
-    shutil.move(path, destination)
+    shutil.copy2(path, destination)
+    
