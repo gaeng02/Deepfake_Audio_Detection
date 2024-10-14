@@ -8,23 +8,25 @@ import pandas as pd
 import shutil
 import os
 
-# os.getcwd()
+if (__name__ == "__main__") :
 
-df = pd.read_csv("../data/sample/train.csv")
+    # os.getcwd()
 
-true_directory = "../data/processed/separated/true"
-false_directory = "./data/processed/separated/false"
+    df = pd.read_csv("../data/sample/train.csv")
 
-os.makedirs(true_directory, exist_ok = True)
-os.makedirs(false_directory, exist_ok = True)
+    true_directory = "../data/processed/separated/true"
+    false_directory = "./data/processed/separated/false"
 
-for index, row in df.iterrows() : 
-    path = row["path"]
-    label = row["label"]
-    
-    if label == "true" : destination = os.path.join(true_directory, os.path.basename(path))
-    elif label == "false" : destination = os.path.join(false_dir, os.path.basename(path))
-    else : print("error")
-    
-    shutil.copy2(path, destination)
-    
+    os.makedirs(true_directory, exist_ok = True)
+    os.makedirs(false_directory, exist_ok = True)
+
+    for index, row in df.iterrows() : 
+        path = row["path"]
+        label = row["label"]
+        
+        if label == "true" : destination = os.path.join(true_directory, os.path.basename(path))
+        elif label == "false" : destination = os.path.join(false_directory, os.path.basename(path))
+        else : print("error")
+        
+        shutil.copy2(path, destination)
+        
