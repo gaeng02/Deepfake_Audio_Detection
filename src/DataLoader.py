@@ -2,7 +2,7 @@
 This script helps load, process, and manage data efficiently.
 Plus, it provides processing data functionally.
 
-data_loader   = [dataset, batch_size, shuffle, num_workers]
+dataloader    = [dataset, batch_size, shuffle, num_workers]
 # datase      = set of data which consists of [waveform, sample_rate, label, index]
 # batch_size  = the number of data sample in each iteration
 # shuffle     = whether to shuffle or not
@@ -16,7 +16,7 @@ import torchaudio
 import matplotlib.pyplot as plt
 from torch.utils.data import Dataset, DataLoader
 
-def data_loader (path, label, batch = 2) :
+def dataloader (path, label, batch = 2) :
 
     dataset = []
     
