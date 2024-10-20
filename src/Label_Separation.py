@@ -15,7 +15,7 @@ if (__name__ == "__main__") :
     df = pd.read_csv("../data/sample/train.csv")
 
     true_directory = "../data/processed/separated/true"
-    false_directory = "./data/processed/separated/false"
+    false_directory = "../data/processed/separated/false"
 
     os.makedirs(true_directory, exist_ok = True)
     os.makedirs(false_directory, exist_ok = True)
