@@ -4,7 +4,7 @@
 3. [Contest](#contest)
 4. [License](#license)
 
-### Purpose
+## Purpose
 
 
 
@@ -15,16 +15,29 @@
 
 
 ### Directory
-├─ data <br>
-&emsp;&emsp;├─ train.csv <br>
-&emsp;&emsp;├─ train/ <br>
-&emsp;&emsp;&emsp;&emsp;└─ audio_00001.ogg <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for train)<br>
-&emsp;&emsp;├─ test.csv <br>
-&emsp;&emsp;└─ test/ <br>
-&emsp;&emsp;&emsp;&emsp;└─ audio_00001.wav <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for test)<br>
-├─ preprocess_data <br>
+#### Data is not provided due to copyright.  
+├─ data   
+&emsp;&emsp;├─ sample   
+&emsp;&emsp;&emsp;&emsp;├─ train.csv   
+&emsp;&emsp;&emsp;&emsp;├─ train/   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.ogg   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for train)   
+&emsp;&emsp;&emsp;&emsp;├─ test.csv    
+&emsp;&emsp;&emsp;&emsp;└─ test/   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.wav   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for test)   
+&emsp;&emsp;├─ separated  
+&emsp;&emsp;&emsp;&emsp;├─ true  
+&emsp;&emsp;&emsp;&emsp;└─ false  
+&emsp;&emsp;├─ preprocessed  
+&emsp;&emsp;&emsp;&emsp;├─ separated    
+&emsp;&emsp;&emsp;&emsp;├─ normalized  
+&emsp;&emsp;&emsp;&emsp;└─ spectrogram  
+&emsp;&emsp;├─ test_data  
+&emsp;&emsp;&emsp;&emsp;├─ normalized  
+&emsp;&emsp;&emsp;&emsp;└─ spectrogram  
+&emsp;&emsp;└─ model.pth   
+└─ src    
 
 
 ## Contest 
@@ -43,5 +56,25 @@
 | 07.14 | 07.15 <br> [Meeting #4](./posts/0715_Meeting.md) | 07.16 | 07.17 | 07.18 <br> [Noise_reduction](./posts/0718_Noise_reduction.md) <br> [Segmentation](./posts/0718_Segmentation.md) <br> [Model_build](./posts/0718_Model_build.md) | 07.19 (Deadline) <br> [No_voice_reduction](./posts/0719_No_voice_reduction.md) | |
 
 
-### License
-This project is licensed under the MIT License. 
+## License
+#### This project is licensed under the `MIT License`. 
+
+### Using Library (Refer to [NOTICE](./NOTICE))
+
+| Library | Version | License | 
+|---|:---:|:---|
+| [`Noisereduce`](https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme) |  | `MIT` |
+| [`Torchinfo`](https://github.com/tyleryep/torchinfo) | 1.8.0 | `MIT` |
+| [`Pyannote`](https://github.com/pyannote) |  | `MIT` |
+| [`Pydub`](https://pydub.com/) |  | `MIT` |
+| [`Soundfile`](https://github.com/bastibe/python-soundfile) | 0.12.1 | `BSD` |
+| [`Pandas`](https://github.com/pandas-dev/pandas) | 2.2.2 | `BSD` |
+| [`Numpy`](https://github.com/numpy/numpy) | 1.26.4 | `BSD` |
+| [`Joblib`](https://joblib.readthedocs.io/en/stable/) |  | `BSD` |
+| [`Scikit-learn`](https://scikit-learn.org/stable/) | 1.5.1 | `BSD` |
+| [`Torch`](https://pytorch.org/) | 2.3.1 cpu | `BSD` |
+| [`Torchvision`](https://github.com/pytorch/vision) |  | `BSD` |
+| [`Torchaudio`](https://github.com/pytorch/audio) | 2.3.1 cpu | `BSD` |
+| [`Matplotlib`](https://github.com/matplotlib/matplotlib) | 3.9.1 | `Python Software Foundation` |
+| [`Librosa`](https://github.com/librosa/librosa) | 0.10.2.post1 | `ISC` |
+| [`Tensorflow`](https://github.com/tensorflow) | 2.17.0 | `Apache 2.0` |
