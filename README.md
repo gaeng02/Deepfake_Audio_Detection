@@ -82,3 +82,4 @@ For these reasons, the purpose of this program is **analyzing audio data to dete
 | [`Matplotlib`](https://github.com/matplotlib/matplotlib) | 3.9.1 | `Python Software Foundation` |
 | [`Librosa`](https://github.com/librosa/librosa) | 0.10.2.post1 | `ISC` |
 | [`Tensorflow`](https://github.com/tensorflow) | 2.17.0 | `Apache 2.0` |
+| [`PIL`](https://python-pillow.org) | 10.3.0 | `HPND` |
