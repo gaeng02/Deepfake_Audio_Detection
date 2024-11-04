@@ -54,7 +54,7 @@ def Train (dataloader, model, loss, optimizer) :
         X, Y = X.to(device), Y.to(device)
         optimizer.zero_grad()
         pred = model(X)
-        loss = cost(pred, Y)
+        loss = loss(pred, Y)
         loss.backward()
         optimizer.step()
 
@@ -76,14 +76,18 @@ def Test (dataloader, model) :
             X, Y = X.to(device), Y.to(device)
             pred = model(X)
 
-            test_loss += cost(pred, Y).item()
+            test_loss += loss(pred, Y).item()
             correct += (pred.argmax(1)==Y).type(torch.float).sum().item()
+
+    '''
+    size = len(dataloader.dataset)
 
     test_loss /= size
     correct /= size
 
     print(f"Test Accuracy :: {(100*correct):>0.1f}%")
     print(f"Test Average loss :: {test_loss:>6f}")
+    '''
 
 
 def Save (model, path = "../data/model.pth") :
@@ -112,7 +116,7 @@ if (__name__ == "__main__") :
     for e in range (epochs) :
         print(f"Epoch :: {e+1}")
 
-        Train(train_datalader, model, cost, optimizer)
+        Train(train_dataloader, model, loss, optimizer)
         Test(test_dataloader, model)
 
     print("Build Model")
