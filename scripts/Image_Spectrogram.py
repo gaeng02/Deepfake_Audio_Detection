@@ -16,7 +16,7 @@ def image_spectrogram (data_loader, label) :
 
     if not os.path.isdir(directory) : print("Error"); return ;
     
-    for i, data in enumerate(train_loader) : 
+    for i, data in enumerate(data_loader) : 
 
         wf = data[0]
         sr = data[1][0]

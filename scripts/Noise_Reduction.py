@@ -7,17 +7,19 @@ Before test the testset, preprocess by reducing noise audio data.
 import librosa
 import noisereduce as nr
 import soundfile as sf
+import numpy as np
+import os
 
 from Visualize import show_spectrogram 
 
 
 def noise_reduction_nr (input_path, output_path) :
     
-    data, sr = librosa.load(input_path, sr = 48000) 
+    data, sample_rate = librosa.load(input_path, sr = 48000)
     
-    reduced_noise = nr.reduce_noise(y = data, sr = sr)
+    reduced_noise = nr.reduce_noise(y = data, sr = sample_rate)
 
-    sf.write(output_path, reduced_noise, sr)
+    sf.write(output_path, reduced_noise, sample_rate)
     
     return reduced_noise, sample_rate
 

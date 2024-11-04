@@ -56,11 +56,11 @@ if (__name__ == "__main__") :
 
     test_image = "../data/preprocessed/spectrogram/test"
 
-    # class_map = {'fake': 0, 'real': 1}
+    class_map = {'fake': 0, 'real': 1}
     inverse_class_map = {v: k for k, v in class_map.items()}
     # print(inverse_class_map)
 
-    result = []
+    results = []
     
     for file_name in os.listdir(test_image) :
         if file_name.endswith('.png') : 
