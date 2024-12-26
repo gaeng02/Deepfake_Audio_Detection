@@ -15,7 +15,9 @@ For these reasons, the purpose of this program is **analyzing audio data to dete
 ## Develop Setting
 
 ### Environment
-- `Python 3.12`
+`Python 3.12`
+
+### Architecture
 
 
 ### Directory
@@ -24,11 +26,11 @@ For these reasons, the purpose of this program is **analyzing audio data to dete
 &emsp;&emsp;├─ sample   
 &emsp;&emsp;&emsp;&emsp;├─ train.csv   
 &emsp;&emsp;&emsp;&emsp;├─ train/   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.ogg   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.ogg, ...  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for train)   
 &emsp;&emsp;&emsp;&emsp;├─ test.csv    
 &emsp;&emsp;&emsp;&emsp;└─ test/   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.wav   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└─ audio_00001.wav, ...  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(audio_files for test)   
 &emsp;&emsp;├─ separated  
 &emsp;&emsp;&emsp;&emsp;├─ true  
@@ -67,14 +69,13 @@ For these reasons, the purpose of this program is **analyzing audio data to dete
 
 | Library | Version | License | 
 |---|:---:|:---|
-| [`Noisereduce`](https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme) |  | `MIT` |
+| [`Noisereduce`](https://github.com/timsainb/noisereduce?tab=MIT-1-ov-file#readme) | 3.0.2 | `MIT` |
 | [`Torchinfo`](https://github.com/tyleryep/torchinfo) | 1.8.0 | `MIT` |
-| [`Pyannote`](https://github.com/pyannote) |  | `MIT` |
 | [`Pydub`](https://pydub.com/) |  | `MIT` |
 | [`Soundfile`](https://github.com/bastibe/python-soundfile) | 0.12.1 | `BSD` |
 | [`Pandas`](https://github.com/pandas-dev/pandas) | 2.2.2 | `BSD` |
 | [`Numpy`](https://github.com/numpy/numpy) | 1.26.4 | `BSD` |
-| [`Joblib`](https://joblib.readthedocs.io/en/stable/) |  | `BSD` |
+| [`Joblib`](https://joblib.readthedocs.io/en/stable/) | 1.4.2 | `BSD` |
 | [`Scikit-learn`](https://scikit-learn.org/stable/) | 1.5.1 | `BSD` |
 | [`Torch`](https://pytorch.org/) | 2.3.1 cpu | `BSD` |
 | [`Torchvision`](https://github.com/pytorch/vision) |  | `BSD` |
