@@ -46,7 +46,8 @@ For these reasons, the purpose of this program is **analyzing audio data to dete
 └─ src    
 
 
-## Contest 
+## Contest
+[Link](https://dacon.io/competitions/official/236253/overview/description)
 
 ### Member
 | 팀장 | 팀원 | 팀원 | 팀원 |
